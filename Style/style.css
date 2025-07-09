@@ -1,0 +1,53 @@
+body{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* Banner Style */
+header .banner{
+    background-image: url("../images/Banner\ Image.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.banner-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 632px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    gap: 20px;
+}
+
+header div .small-text{
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    
+}
+header div .main-title,.highlight-text{
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    text-align: center;
+    font-size: 72px;
+    color: #fff;
+    font-weight: 600;
+}
