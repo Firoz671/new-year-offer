@@ -15,6 +15,8 @@ header .banner{
     align-items: center;
 
 
+    box-shadow: inset 350px 350px 350px rgba(0, 0, 0, 0.8);
+
 }
 
 .banner-div{
@@ -83,4 +85,83 @@ main .offer-categories{
 }
 main .offer-section img{
     width: 802px;
+}
+
+/* Welcome Banner */
+.welcome-banner{
+    background-image: url("../images/Vectorrr.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    border-radius: 16px;
+    box-shadow: inset 150px 150px 150px 150px rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome-banner-text{
+    width: 50%;
+}
+.welcome-banner img{
+    width: 100%;
+    border: 2px solid black;
+    width: 319px;
+    height: 464px;
+}
+
+.welcome-banner-text h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.welcome-banner-text p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #FFFFFF;
+}
+
+.welcome-banner .welcome-banner-text button{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+
+/* Join Section */
+
+.join-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    border-radius: 16px;
+    height: 482px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0.16), rgba(255,0,0,-10));
+
+}
+.join-items{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.join-section button{
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+section span{
+    color: #FF0000;
 }
